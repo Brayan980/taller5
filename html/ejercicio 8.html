@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas Seguras</title>
+</head>
+<body>
+
+    <h1>Generador de Contraseñas Seguras</h1>
+    <form id="generadorForm">
+        Longitud de la contraseña: <input type="number" id="longitud" required><br>
+        Incluir mayúsculas: <input type="checkbox" id="mayusculas"><br>
+        Incluir minúsculas: <input type="checkbox" id="minusculas"><br>
+        Incluir números: <input type="checkbox" id="numeros"><br>
+        Incluir caracteres especiales: <input type="checkbox" id="especiales"><br>
+        <input type="submit" value="Generar Contraseña">
+    </form>
+    <div id="resultado"></div>
+    <script src="../js/generador_contraseñas.js"></script>
+    
+</body>
+</html>

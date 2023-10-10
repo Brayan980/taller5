@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+</head>
+<body>
+
+    <h1>Registro de Estudiantes</h1>
+    
+    <!-- Formulario para agregar estudiantes -->
+    <h2>Agregar Estudiante</h2>
+    <form id="agregarForm">
+        Nombre: <input type="text" id="nombre"><br>
+        Edad: <input type="number" id="edad"><br>
+        Número de Identificación: <input type="number" id="identificacion"><br>
+        <input type="submit" value="Agregar Estudiante">
+    </form>
+    
+    <!-- Formulario para buscar estudiantes -->
+    <h2>Buscar Estudiante</h2>
+    <form id="buscarForm">
+        Número de Identificación a buscar: <input type="number" id="buscarIdentificacion"><br>
+        <input type="submit" value="Buscar Estudiante">
+    </form>
+    
+    <!-- Resultado de la búsqueda -->
+    <div id="resultado"></div>
+    <script src="../js/registro_estudiantes.js"></script>
+</body>
+</html>
